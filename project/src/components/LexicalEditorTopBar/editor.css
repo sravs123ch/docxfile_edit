@@ -166,3 +166,60 @@
   height: revert !important;
   max-width: 100% !important;
 }
+
+
+.editor-text-bold {
+  font-weight: bold;
+}
+
+.editor-text-italic {
+  font-style: italic;
+}
+
+.editor-text-underline {
+  text-decoration: underline;
+}
+
+.editor-list-ol {
+  padding: 0;
+  margin: 0 0 0 16px;
+  list-style-type: decimal;
+}
+
+.editor-list-ul {
+  padding: 0;
+  margin: 0 0 0 16px;
+  list-style-type: disc;
+}
+
+.editor-listitem {
+  margin: 4px 0;
+}
+
+.editor-nested-listitem {
+  list-style-type: none;
+}
+
+.editor-link {
+  color: #0066cc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.editor-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+  overflow-y: hidden;
+}
+
+.editor-table-cell {
+  border: 1px solid #ddd;
+  padding: 6px 8px;
+  vertical-align: top;
+  position: relative;
+}
+
+.editor-table-row {
+  display: table-row;
+}
